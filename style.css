@@ -2,31 +2,36 @@
 
 .st{
 background: lightgray;
-float:left;
+float:right;
 width:250%;
+margin:10px 10px 10px 10px;
 }
 .st {
     position: fixed;
     top: 0;
     overflow: auto;
-    padding: 0;
+    padding: 0px;
     font-size: auto;
+    width:250%
    
   }
   
   .st ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 12px 2px;
+    padding: 10px;
+    width:1266px;
     display:inline;
     position: fixed;
     background-color: #333;
+    font-size: 150%;
+    float:right;
   }
   
   .st li {
     padding:0;
     top: 0;
-    float:left;
+    float:right;
   
   }
   
@@ -131,58 +136,69 @@ width:250%;
 
      
       
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
         .st a {
           float: none;
           width: 30%;
           height: 300%;
         }
       }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
          .hero-image {
-        width: 30%;
-        height: 300%;
+        width: 100%;
+        height: auto;
       }
     }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
         .hero-text {
           float: none;
-          width: 30%;
-          height: 300%;
+          width: 80%;
+          height: 40%;
         }
       }
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
         .row .column {
           float: none;
           width: 30%;
           height: 300%;
         }
-      } @media screen and (max-width: 600px) {
+      } @media screen and (max-width: 800px) {
         .row .col2 {
           float: none;
           width: 30%;
           height: 300%;
         }
-      }@media screen and (max-width: 600px) {
+      }@media screen and (max-width: 800px) {
         .row .col2 {
           float: none;
           width: 30%;
           height: 300%;
         }
       }
-      @media screen and (max-width: 600px) {
-        .flex-container .col4 {
+      @media screen and (max-width: 1270px) {
+        .flex-container {
           float: none;
-          width: 10%;
-          height: 300%;
-          font-size: 30%;
+          flex-direction: column;
+           display:flex;
+        
         }
       }
-      @media screen and (max-width: 600px) {
+     
+      @media screen and (max-width: 1270px) {
+        .flex-container .col4  {
+          float: none;
+          flex-direction: column;
+           display:flex;
+           width: 40%;
+        }
+      }
+      @media screen and (max-width: 1270px) {
         .flex-container2 .col3 {
           float: none;
-          width: 10%;
-          height: 300%;
-          font-size: 30%;
+           width: 40%;
+          height: 500%;
+          
+          flex-direction: column;
+          display: flex
         }
       }
